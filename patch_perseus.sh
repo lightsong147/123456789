@@ -26,7 +26,7 @@ chmod +x apkeep
 # Download Azur Lane
 if [ ! -f "com.YoStarJP.AzurLane.apk" ]; then
     echo "Get Azur Lane apk"
-    wget https://www.dropbox.com/scl/fi/3wn16lyqs0b8xm2lynn39/ALjp.apk?rlkey=eau2fiohjzx20pu3agokzjgl4&dl=0 -O com.YoStarJP.AzurLane.apk -q
+    wget "https://www.dropbox.com/scl/fi/3wn16lyqs0b8xm2lynn39/ALjp.apk?rlkey=eau2fiohjzx20pu3agokzjgl4&dl=0" -O com.YoStarJP.AzurLane.apk -q
     echo "apk downloaded !"
 fi
 
